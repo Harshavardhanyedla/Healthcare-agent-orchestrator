@@ -59,6 +59,9 @@ resource blobWriterAccess 'Microsoft.Authorization/roleAssignments@2022-04-01' =
       principalId: principal.id
       principalType: principal.type
     }
+    dependsOn: [
+    sa
+    bolbServices
   }
 ]
 
