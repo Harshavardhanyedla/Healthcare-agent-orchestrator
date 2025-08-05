@@ -178,6 +178,9 @@ resource openaiAccessFromProject 'Microsoft.Authorization/roleAssignments@2022-0
       principalId: aiProject.identity.principalId
       principalType: 'ServicePrincipal'
     }
+    dependsOn: [
+      aiProject
+    ]
 }
 
 
