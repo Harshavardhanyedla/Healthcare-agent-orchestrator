@@ -136,6 +136,9 @@ resource aiProject 'Microsoft.MachineLearningServices/workspaces@2024-04-01-prev
     hubResourceId: aiHub.id
   }
   kind: 'Project'
+  dependsOn: [
+   aiHub
+  ]
 }
 
 resource aiDeveloper 'Microsoft.Authorization/roleDefinitions@2022-04-01' existing = {
