@@ -1,6 +1,6 @@
-# Healthcare Agent Orchestrator
+# Neuron Agent
 
-**Healthcare Agent Orchestrator** is a multi-agent framework designed to coordinate specialized agents using diverse data types and tools like Microsoft 365 and Teams to assist healthcare workflows, such as tumor board coordination. This repo provides a full implementation template for deploying a modular and scalable agent-based architecture in a healthcare setting.
+**Neuron Agent** is a multi-agent framework designed to coordinate specialized agents using diverse data types and tools like Microsoft 365 and Teams to assist healthcare workflows, such as tumor board coordination. This repo provides a full implementation template for deploying a modular and scalable agent-based architecture in a healthcare setting.
 
 > **Note**: This sample is for research and development use only. It is **not** intended for clinical or diagnostic use.
 
@@ -179,4 +179,5 @@ To report issues: [GitHub Issues](https://github.com/Azure-Samples/healthcare-ag
 PRs and improvements welcome! See [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 This project follows the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+
 
